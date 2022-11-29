@@ -65,8 +65,8 @@ public class Product {
 				"productNumber='" + productNumber + '\'' +
 				", productName='" + productName + '\'' +
 				", productCategory='" + productCategory + '\'' +
-				", maker='" + maker + '\'' +
-				", stock=" + stock +
+				", makeasdr='" + maker + '\'' +
+				", stockasd=" + stock +
 				'}';
 	}
 }
