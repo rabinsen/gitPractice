@@ -15,6 +15,6 @@ public class ProductController {
 	public Product getProduct(@PathVariable("productId") String productId) {
 
 
-		return new Product("1122342344322", "Hfffat", "Faseeehion", "Adidas", productFeignClient.getProductStocks(productId));
+		return new Product("1122342dqwsd344322", "Hffdqdwfat", "Faseeehion", "Adidas", productFeignClient.getProductStocks(productId));
 	}
 }
