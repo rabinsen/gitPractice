@@ -58,15 +58,4 @@ public class Product {
 	public void setStock(int stock) {
 		this.stock = stock;
 	}
-
-	@Override
-	public String toString() {
-		return "Product{" +
-				"productNumber='" + productNumber + '\'' +
-				", productName='" + productName + '\'' +
-				", productCategory='" + productCategory + '\'' +
-				", maker='" + maker + '\'' +
-				", stock=" + stock +
-				'}';
-	}
 }
