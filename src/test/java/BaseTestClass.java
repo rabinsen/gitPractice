@@ -17,7 +17,7 @@ public class BaseTestClass {
 
     @BeforeEach
     public void setup() {
-        StandaloneMockMvcBuilder standaloneMockMvcBuilder
+        StandaloneMockMvcBuilder standaloneMockMvcBuilders
                 = MockMvcBuilders.standaloneSetup(evenOddController);
         RestAssuredMockMvc.standaloneSetup(standaloneMockMvcBuilder);
     }
