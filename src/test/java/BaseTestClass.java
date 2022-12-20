@@ -13,7 +13,7 @@ import products.EvenOddController;
 public class BaseTestClass {
 
     @Autowired
-    private EvenOddController evenOddController;
+    private EvenOddController evenOddControllers;
 
     @BeforeEach
     public void setup() {
